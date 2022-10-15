@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+header{
+    display: inline;
+}
+
+.header{
+    padding: 60px;
+    background-color:#54BAB9;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#9ED2C6;
+}
+
+main{
+    padding: 20px;
+    overflow: auto;
+}
+
+nav{
+    background-color:#cfb68b;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    font-weight: bold;
+    background-color: beige;
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.profile header{
+    text-align: center;
+}
+
+h2, h3{
+    color: #00a2c6;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 35px;
+    margin-top: 20px;
+    background-color: #F7ECDE;
+}
+
+.info{
+    display: flex;
+    margin-left: 15px;
+}
+.info img{
+    width: 25px;
+    margin: 8px;
+}
+button{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #29b3d1;
+    border: #F7ECDE;
+    float: right;
+    
+}
+
+.btn{
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #54BAB9;
+    border: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(230, 172, 101);
+    font-weight: bold;
+}
+
+.same-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 0 rgba(223, 136, 136, 0.2);
+ }
+
+.profile img {
+    width: 200px;
+    padding-right: 20px;
+}
+
+aside{
+    float: right;
+    width: 25%;
+    padding-left: 10px;
+}
+
+footer{
+    padding: 20px;
+    color: black;
+    background-color: #cfb68b;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1000px) {
+    #content,
+    aside{
+        width: 100%;
+        padding: 0;
+    }
+}
